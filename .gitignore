@@ -4,6 +4,9 @@
 # Exported builds
 builds/
 
+# Local course materials are reference-only and are not part of the public repository
+课件/
+
 # OS and editor files
 .DS_Store
 Thumbs.db
