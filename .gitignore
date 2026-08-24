@@ -1,0 +1,14 @@
+# Godot generated data
+.godot/
+
+# Exported builds
+builds/
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+*.swp
+*.tmp
+
+# Export credentials may contain secrets
+.godot/export_credentials.cfg
