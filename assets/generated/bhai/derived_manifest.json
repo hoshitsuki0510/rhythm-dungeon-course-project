@@ -1,0 +1,1619 @@
+{
+  "tool": "tools/process_generated_assets.py",
+  "directional_state_tool": "tools/generate_directional_states.py",
+  "sources": [
+    {
+      "path": "assets/generated/bhai/inbox/effects/blood_sediment_hazard_raw.png",
+      "size": [
+        2048,
+        2048
+      ],
+      "mode": "RGB",
+      "sha256": "94c3092e4ded1e7f61804fb50d793b6f33cd62f17b0c236f2d7c7ad9dbd92f0c"
+    },
+    {
+      "path": "assets/generated/bhai/inbox/effects/defibrillation_countdown_sheet_raw.png",
+      "size": [
+        2048,
+        2048
+      ],
+      "mode": "RGB",
+      "sha256": "54e3d98c5e84cede3e0b4a74540bbd02ee8bec703f8aeff6eeb3902eb884a1d8"
+    },
+    {
+      "path": "assets/generated/bhai/inbox/effects/fx_room_exit_portal_sheet_raw.png",
+      "size": [
+        2048,
+        2048
+      ],
+      "mode": "RGB",
+      "sha256": "e3da1bf05a8f9e5fe47d63ec31b0ffd05668201f6c1f564eead1ee6bb12d6e8b"
+    },
+    {
+      "path": "assets/generated/bhai/inbox/effects/fx_weapon_clash_sheet_raw.png",
+      "size": [
+        2048,
+        2048
+      ],
+      "mode": "RGB",
+      "sha256": "1a92f3d390426a87964342b7e302d7f8bf48470feeebe8ced9812e3c9487220e"
+    },
+    {
+      "path": "assets/generated/bhai/inbox/effects/ground_spike_wave_sheet_raw.png",
+      "size": [
+        2048,
+        2048
+      ],
+      "mode": "RGB",
+      "sha256": "ddee0dafbb2e378886c2ae2b73718dff5c2762fa7f04b8f0fab671217a98d83a"
+    },
+    {
+      "path": "assets/generated/bhai/inbox/effects/mud_projectile_sheet_raw.png",
+      "size": [
+        2048,
+        2048
+      ],
+      "mode": "RGB",
+      "sha256": "454690ee7d51df4c722c1608fd1bdf303fced7419f0099619ed6dcae30192074"
+    },
+    {
+      "path": "assets/generated/bhai/inbox/effects/noise_projectile_sheet_raw.png",
+      "size": [
+        2048,
+        2048
+      ],
+      "mode": "RGB",
+      "sha256": "7979fb64ad270a2bc4dcb740f21bb8b88033d44104b1c15c1d573b5fe7d466e5"
+    },
+    {
+      "path": "assets/generated/bhai/inbox/effects/oxygen_charge_sheet_raw.png",
+      "size": [
+        2048,
+        2048
+      ],
+      "mode": "RGB",
+      "sha256": "b94de39dd644d1c4c5fe1cf6c78e4d38ce49a39aede39db3f72c5f7d68154eaa"
+    },
+    {
+      "path": "assets/generated/bhai/inbox/effects/piston_strike_sheet_raw.png",
+      "size": [
+        2048,
+        2048
+      ],
+      "mode": "RGB",
+      "sha256": "c5c565b8235e5d7c958bc46cd80fa2990fb4259e4c7f981254e64b6bf9d84b9d"
+    },
+    {
+      "path": "assets/generated/bhai/inbox/effects/pulmonary_jet_sheet_raw.png",
+      "size": [
+        2048,
+        2048
+      ],
+      "mode": "RGB",
+      "sha256": "6885e819047c22d556df2e0368d75edf8243678757242caa20c4a7205499fac4"
+    },
+    {
+      "path": "assets/generated/bhai/inbox/items/guard_echo_raw.png",
+      "size": [
+        2048,
+        2048
+      ],
+      "mode": "RGB",
+      "sha256": "68f49d29b25c008bc3aa5282a801e4ad7402de21edbd640d1ec41fcef09a67a8"
+    },
+    {
+      "path": "assets/generated/bhai/inbox/items/impact_echo_raw.png",
+      "size": [
+        2048,
+        2048
+      ],
+      "mode": "RGB",
+      "sha256": "ba85ab9c1326931d6e108847e4c6e852c1ee525e8dc897158dfdbaaf381687c4"
+    },
+    {
+      "path": "assets/generated/bhai/inbox/items/pulse_echo_raw.png",
+      "size": [
+        2048,
+        2048
+      ],
+      "mode": "RGB",
+      "sha256": "870cd41baa1cc91d68de0956c5d6bad7a676d77127e64405d6b969c713512212"
+    },
+    {
+      "path": "assets/generated/bhai/inbox/items/tempo_echo_raw.png",
+      "size": [
+        2048,
+        2048
+      ],
+      "mode": "RGB",
+      "sha256": "958ebadd24e407c767578575a1946c01d372cef1b42d32efcbbe73b5c3334f4f"
+    },
+    {
+      "path": "assets/generated/bhai/inbox/items/vigor_echo_raw.png",
+      "size": [
+        2048,
+        2048
+      ],
+      "mode": "RGB",
+      "sha256": "509701e94e03ff5bc7b6abf7031b195b2af7d8fc5f0d973dedea0dd3c0ec7fed"
+    },
+    {
+      "path": "assets/generated/bhai/inbox/objects/heart_core_v2_raw.png",
+      "size": [
+        2048,
+        2048
+      ],
+      "mode": "RGB",
+      "sha256": "74234b84a0c257aea38e35aead0fcec6a6c8c58ebb88d5343b1eefaac24a3cd5"
+    },
+    {
+      "path": "assets/generated/bhai/inbox/objects/portal_oxygen_flow_raw.png",
+      "size": [
+        2048,
+        2048
+      ],
+      "mode": "RGB",
+      "sha256": "e8e5a78f233d5f70f386e71239456c791524515c284dcfb7f9a88a0c617498ef"
+    },
+    {
+      "path": "assets/generated/bhai/inbox/objects/portal_pressurized_raw.png",
+      "size": [
+        2048,
+        2048
+      ],
+      "mode": "RGB",
+      "sha256": "49aea75c5978b2af5abecada3d546e68e9ebea04ebe644d797f2d88cf59e9bce"
+    },
+    {
+      "path": "assets/generated/bhai/inbox/objects/portal_prime_resonance_raw.png",
+      "size": [
+        2048,
+        2048
+      ],
+      "mode": "RGB",
+      "sha256": "ec64cebbc5389892a226843d75522710fc13a75e40753d7176d5ef04e3fedec8"
+    },
+    {
+      "path": "assets/generated/bhai/inbox/objects/reward_shrine_raw.png",
+      "size": [
+        2048,
+        2048
+      ],
+      "mode": "RGB",
+      "sha256": "c96bdeec0067c9eeaa6e1e66968ad306d574a6febca71b54fc28824042bf67aa"
+    },
+    {
+      "path": "assets/generated/bhai/inbox/scenes/room_boss_raw.jpeg",
+      "size": [
+        2560,
+        1440
+      ],
+      "mode": "RGB",
+      "sha256": "e7cfbee03f56a837676dafb05c83d9bf88e0ccb4a3c4c7acdc752acf3b0b3c8b"
+    },
+    {
+      "path": "assets/generated/bhai/inbox/scenes/room_hard_raw.jpeg",
+      "size": [
+        2560,
+        1440
+      ],
+      "mode": "RGB",
+      "sha256": "6a29322fa2935bcd87e81507ae85ac7d06c11cea8bd69277e0a275058a29be78"
+    },
+    {
+      "path": "assets/generated/bhai/inbox/scenes/room_left_atrium_raw.jpeg",
+      "size": [
+        2560,
+        1440
+      ],
+      "mode": "RGB",
+      "sha256": "1eb7b12dbcadaf5404709e32da4041d1288c97769a4f4d650a80086123772da3"
+    },
+    {
+      "path": "assets/generated/bhai/inbox/scenes/room_left_ventricle_raw.jpeg",
+      "size": [
+        2560,
+        1440
+      ],
+      "mode": "RGB",
+      "sha256": "2c92a2714b6f5ea00ff4ed9b80fb10a90f4957b2123647edb1a37cea18c641e9"
+    },
+    {
+      "path": "assets/generated/bhai/inbox/scenes/room_restored_raw.jpeg",
+      "size": [
+        2560,
+        1440
+      ],
+      "mode": "RGB",
+      "sha256": "15e82b4246d3cddf71e67dbdec2f3f7036d758e4836aee42661c3f8b03926f34"
+    },
+    {
+      "path": "assets/generated/bhai/inbox/scenes/room_reward_raw.jpeg",
+      "size": [
+        2560,
+        1440
+      ],
+      "mode": "RGB",
+      "sha256": "87f0b566b89fff6260a257d8787eafbef43146662b9cf97ed05ce94dca9d16b2"
+    },
+    {
+      "path": "assets/generated/bhai/inbox/scenes/room_right_atrium_raw.jpeg",
+      "size": [
+        2560,
+        1440
+      ],
+      "mode": "RGB",
+      "sha256": "e30aa7424842d470a91ce38ca58d9fe5b0ed49334aeec0f5a0c28001a2fb2c89"
+    },
+    {
+      "path": "assets/generated/bhai/inbox/scenes/room_right_ventricle_raw.jpeg",
+      "size": [
+        2560,
+        1440
+      ],
+      "mode": "RGB",
+      "sha256": "1fc73b497d2cc6d0b812b82cb34363b74feea0ccb22fc6934c5a0642cce94a08"
+    },
+    {
+      "path": "assets/generated/bhai/inbox/scenes/room_upper_layers_shared_raw.jpeg",
+      "size": [
+        2560,
+        1440
+      ],
+      "mode": "RGB",
+      "sha256": "8a9df0aad5045965b1c97218f5b41f6f4e5bc016f740eb0aacb1033a86682d25"
+    },
+    {
+      "path": "assets/generated/bhai/inbox/scenes/title_screen_background_raw.jpeg",
+      "size": [
+        2560,
+        1440
+      ],
+      "mode": "RGB",
+      "sha256": "6244b4afce343dc2f40960857dc9bc0a90ccbce97e5175bc61126af9055ac72f"
+    },
+    {
+      "path": "assets/generated/bhai/inbox/scenes/trans_atrium_to_ventricle4_raw.jpeg",
+      "size": [
+        2560,
+        1440
+      ],
+      "mode": "RGB",
+      "sha256": "fdbdcaaa1224b946756d3812e7dd6f1bdaf9bd8e9af69137a8cb3deca97103c1"
+    },
+    {
+      "path": "assets/generated/bhai/inbox/scenes/trans_atrium_to_ventricle_raw.jpeg",
+      "size": [
+        2560,
+        1440
+      ],
+      "mode": "RGB",
+      "sha256": "b7856fa806924caa0001fc96b5adaec101137d7b19f4e9f6c9a335af744e83e9"
+    },
+    {
+      "path": "assets/generated/bhai/inbox/scenes/trans_ending_revival_raw.jpeg",
+      "size": [
+        2560,
+        1440
+      ],
+      "mode": "RGB",
+      "sha256": "54170bb25fafdd8c90ce5f0ca9bf280de5d4c807656b82a186c6cf9cd8a2e3f8"
+    },
+    {
+      "path": "assets/generated/bhai/inbox/scenes/trans_ventricle_to_atrium_raw.jpeg",
+      "size": [
+        2560,
+        1440
+      ],
+      "mode": "RGB",
+      "sha256": "14e1a45d04aa8072d7bcf95fa79dcfb7b5335b417c5f4ae5a7c5c53bb2d7e771"
+    },
+    {
+      "path": "assets/generated/bhai/inbox/sprites/arrhythmia_boss_raw.png",
+      "size": [
+        2048,
+        2048
+      ],
+      "mode": "RGB",
+      "sha256": "f6150e9d32ba2689b871553245ce96f032dbe5a1a8cf4416651881c6c74ed533"
+    },
+    {
+      "path": "assets/generated/bhai/inbox/sprites/enemy_death_down_raw.png",
+      "size": [
+        2048,
+        2048
+      ],
+      "mode": "RGB",
+      "sha256": "7855e98e9d24d52cd30f42c85532ad11b32f4a7d901b0ceb5c5d45735e277be6"
+    },
+    {
+      "path": "assets/generated/bhai/inbox/sprites/enemy_death_left_raw.png",
+      "size": [
+        2048,
+        2048
+      ],
+      "mode": "RGBA",
+      "sha256": "ecf4cbb66a96c403636700924f6b463c94cde13bf891aa355bb4215d71aca95f"
+    },
+    {
+      "path": "assets/generated/bhai/inbox/sprites/enemy_death_right_raw.png",
+      "size": [
+        2048,
+        2048
+      ],
+      "mode": "RGBA",
+      "sha256": "76afb8065aff7133fa61a9eb4e46d7f13d9ad2ee59492df860e31469b42540b2"
+    },
+    {
+      "path": "assets/generated/bhai/inbox/sprites/enemy_death_up_raw.png",
+      "size": [
+        2048,
+        2048
+      ],
+      "mode": "RGBA",
+      "sha256": "438b13125c970fbeb33ff329af4511cc72965dfdebad431b2a77cd32882de547"
+    },
+    {
+      "path": "assets/generated/bhai/inbox/sprites/enemy_hurt_down_raw.png",
+      "size": [
+        2048,
+        2048
+      ],
+      "mode": "RGB",
+      "sha256": "6ede358133ecd37df48f1b987b81fa061ca3bc1a01c658787aa2bae36f388991"
+    },
+    {
+      "path": "assets/generated/bhai/inbox/sprites/enemy_hurt_left_raw.png",
+      "size": [
+        2048,
+        2048
+      ],
+      "mode": "RGBA",
+      "sha256": "b7695fc8c13201de6f5e485caf3bcdda1e2440f2db79ebc9fb84b9abe483f6ab"
+    },
+    {
+      "path": "assets/generated/bhai/inbox/sprites/enemy_hurt_right_raw.png",
+      "size": [
+        2048,
+        2048
+      ],
+      "mode": "RGBA",
+      "sha256": "da7453e808363e9770ad060ba930d6b6cb601bdefaec027e6b6b2bbc53842204"
+    },
+    {
+      "path": "assets/generated/bhai/inbox/sprites/enemy_hurt_up_raw.png",
+      "size": [
+        2048,
+        2048
+      ],
+      "mode": "RGBA",
+      "sha256": "cd43fd7c8c2f063a175bffdfe9e559180234d2415d2d81c1a7c9525e400e49d9"
+    },
+    {
+      "path": "assets/generated/bhai/inbox/sprites/gear_stalker_sheet_raw.png",
+      "size": [
+        2048,
+        2048
+      ],
+      "mode": "RGB",
+      "sha256": "9025beb36a919c033df662a9498dd2845f40c4aef9e29ab43e0968ded1f51de4"
+    },
+    {
+      "path": "assets/generated/bhai/inbox/sprites/oxygen_reservoir_boss_raw.png",
+      "size": [
+        2048,
+        2048
+      ],
+      "mode": "RGB",
+      "sha256": "8825a19dbeb5c8f5d12893d3615975dffe8c7ab89ff31e87e5c100dcccd192a7"
+    },
+    {
+      "path": "assets/generated/bhai/inbox/sprites/piston_colossus_boss_raw.png",
+      "size": [
+        2048,
+        2048
+      ],
+      "mode": "RGB",
+      "sha256": "2e92dd28e7f672d27db014e23e690f960bb2079736afca928c567e7ba74b7de3"
+    },
+    {
+      "path": "assets/generated/bhai/inbox/sprites/player_death_down_raw.png",
+      "size": [
+        2048,
+        2048
+      ],
+      "mode": "RGB",
+      "sha256": "f7e0bbccd768c07ad3ec05bf232491fffccd3ec18f81fd820012a4114b65c72e"
+    },
+    {
+      "path": "assets/generated/bhai/inbox/sprites/player_death_left_raw.png",
+      "size": [
+        2048,
+        2048
+      ],
+      "mode": "RGBA",
+      "sha256": "a32f6020cea02e1b8c3c243aabcbf955a2d0199d06769471472aaf0c10f9dcde"
+    },
+    {
+      "path": "assets/generated/bhai/inbox/sprites/player_death_right_raw.png",
+      "size": [
+        2048,
+        2048
+      ],
+      "mode": "RGBA",
+      "sha256": "ce6dc35d05daa575eb6464afd6aa6a31a0e5a45acd478566eecdd53d7fc8cf85"
+    },
+    {
+      "path": "assets/generated/bhai/inbox/sprites/player_death_up_raw.png",
+      "size": [
+        2048,
+        2048
+      ],
+      "mode": "RGBA",
+      "sha256": "65e07dca6d0de9539bb8170e8e13adfb3ceb4c9e2f368518d34c382d26996fba"
+    },
+    {
+      "path": "assets/generated/bhai/inbox/sprites/player_hurt_down_raw.png",
+      "size": [
+        2048,
+        2048
+      ],
+      "mode": "RGB",
+      "sha256": "1b0fb83fb29a510849ba8951a11f54d2523b49736dc684b4bce2b7a6758cf679"
+    },
+    {
+      "path": "assets/generated/bhai/inbox/sprites/player_hurt_left_raw.png",
+      "size": [
+        2048,
+        2048
+      ],
+      "mode": "RGB",
+      "sha256": "6a4adaca249c8d2b7832d7769a73a910cc2df0b176fe59b2a60669e53ccef814"
+    },
+    {
+      "path": "assets/generated/bhai/inbox/sprites/player_hurt_right_raw.png",
+      "size": [
+        2048,
+        2048
+      ],
+      "mode": "RGB",
+      "sha256": "c5a97cd96db7279d4fd31d7c04b8f437afa9dca83fa02f6b8009d96dfa861375"
+    },
+    {
+      "path": "assets/generated/bhai/inbox/sprites/player_hurt_up_raw.png",
+      "size": [
+        2048,
+        2048
+      ],
+      "mode": "RGBA",
+      "sha256": "6668dcd26c58e3ca1e1f886fdaafece273c8dd45137ac937b456e35943995d25"
+    },
+    {
+      "path": "assets/generated/bhai/inbox/sprites/spit_slug_death_down_raw.png",
+      "size": [
+        2048,
+        2048
+      ],
+      "mode": "RGB",
+      "sha256": "fbff3a770d89c1f741b5a048e2432e5be44562299eccd6ff83cbb9dc473f8662"
+    },
+    {
+      "path": "assets/generated/bhai/inbox/sprites/spit_slug_death_left_raw.png",
+      "size": [
+        2048,
+        2048
+      ],
+      "mode": "RGB",
+      "sha256": "f3286dc681203b9133d406e4f3ab5b5478dfe28ed125054e87221c8b2e509ee3"
+    },
+    {
+      "path": "assets/generated/bhai/inbox/sprites/spit_slug_death_right_raw.png",
+      "size": [
+        2048,
+        2048
+      ],
+      "mode": "RGB",
+      "sha256": "6ef72592df09613e0c98a7dbcb8a03833bcf3bdba59363a0c11ab4ef993a14e7"
+    },
+    {
+      "path": "assets/generated/bhai/inbox/sprites/spit_slug_death_up_raw.png",
+      "size": [
+        2048,
+        2048
+      ],
+      "mode": "RGB",
+      "sha256": "2f904cca7f3b29fbc49c80c920568c0e1ec1b40e314645194859094372a9407a"
+    },
+    {
+      "path": "assets/generated/bhai/inbox/sprites/spit_slug_hurt_down_raw.png",
+      "size": [
+        2048,
+        2048
+      ],
+      "mode": "RGB",
+      "sha256": "8845ee475b3c833849637239497d7af61226d844d313497919fa0ceff72f047c"
+    },
+    {
+      "path": "assets/generated/bhai/inbox/sprites/spit_slug_hurt_left_raw.png",
+      "size": [
+        2048,
+        2048
+      ],
+      "mode": "RGB",
+      "sha256": "820a4e418c15ef971d15df68ac6007bbdfa9eb06a873efca1cab7d56329fd7d6"
+    },
+    {
+      "path": "assets/generated/bhai/inbox/sprites/spit_slug_hurt_right_raw.png",
+      "size": [
+        2048,
+        2048
+      ],
+      "mode": "RGB",
+      "sha256": "ff2be62469064c8eaefe6a3c08c15a4b7d49d20f15fdc2c0638bbef0a62a29de"
+    },
+    {
+      "path": "assets/generated/bhai/inbox/sprites/spit_slug_hurt_up_raw.png",
+      "size": [
+        2048,
+        2048
+      ],
+      "mode": "RGB",
+      "sha256": "7ca373da7e876375393037fde5f0fda98cc9b14290930a4526ebb16e5ce72dec"
+    },
+    {
+      "path": "assets/generated/bhai/inbox/sprites/spit_slug_sheet_raw.png",
+      "size": [
+        2048,
+        2048
+      ],
+      "mode": "RGB",
+      "sha256": "5af2c000068961b7c1bfef97ce211ef26f0d7368db6a7f7c3bb6812273b6333b"
+    },
+    {
+      "path": "assets/generated/bhai/inbox/sprites/venous_glutton_death_down_raw.png",
+      "size": [
+        2048,
+        2048
+      ],
+      "mode": "RGB",
+      "sha256": "50a752f5d0e48dd216360d900f8ecda2e6f75cfb92f08a7ff8dc9fc4e7a98362"
+    },
+    {
+      "path": "assets/generated/bhai/inbox/sprites/venous_glutton_death_left_raw.png",
+      "size": [
+        2048,
+        2048
+      ],
+      "mode": "RGB",
+      "sha256": "f22a7fdc35aa48ea51275ffe198299f0dbc4be65c44bc302408748a129202e36"
+    },
+    {
+      "path": "assets/generated/bhai/inbox/sprites/venous_glutton_death_right_raw.png",
+      "size": [
+        2048,
+        2048
+      ],
+      "mode": "RGB",
+      "sha256": "57e30219aec32b3a30780ddb0426cbf7dde3db07f122d0409547afde3724fa67"
+    },
+    {
+      "path": "assets/generated/bhai/inbox/sprites/venous_glutton_death_up_raw.png",
+      "size": [
+        2048,
+        2048
+      ],
+      "mode": "RGB",
+      "sha256": "110ef925240f6965d8eb595c35c90bf550b8eb8b68a61106d1daada2d6dc5661"
+    },
+    {
+      "path": "assets/generated/bhai/inbox/sprites/venous_glutton_hurt_down_raw.png",
+      "size": [
+        2048,
+        2048
+      ],
+      "mode": "RGB",
+      "sha256": "3d0e7122ac4b46f549e4d78440c29f2291ac344be0ab7b12e736d4888b9865f8"
+    },
+    {
+      "path": "assets/generated/bhai/inbox/sprites/venous_glutton_hurt_left_raw.png",
+      "size": [
+        2048,
+        2048
+      ],
+      "mode": "RGB",
+      "sha256": "8a14ba79df6b7c16d36152ee0192702d1d65d7c82fb057420a4014d964781858"
+    },
+    {
+      "path": "assets/generated/bhai/inbox/sprites/venous_glutton_hurt_right_raw.png",
+      "size": [
+        2048,
+        2048
+      ],
+      "mode": "RGB",
+      "sha256": "20cff8f9180cceeb03f4d06638be01484d15e7b9ec02e33c65c7a58b3b442a0f"
+    },
+    {
+      "path": "assets/generated/bhai/inbox/sprites/venous_glutton_hurt_up_raw.png",
+      "size": [
+        2048,
+        2048
+      ],
+      "mode": "RGB",
+      "sha256": "be0694fcafdf64c9bae0d2e5ea8dae20c21c32468e117eb448b898ff0d68b918"
+    },
+    {
+      "path": "assets/generated/bhai/inbox/sprites/venous_glutton_sheet_raw.png",
+      "size": [
+        2048,
+        2048
+      ],
+      "mode": "RGB",
+      "sha256": "89582cfe281eb1253631799519d466cff76dc494213c5482f5666a59367e3c76"
+    },
+    {
+      "path": "assets/generated/bhai/inbox/ui/charge_raw.png",
+      "size": [
+        2048,
+        2048
+      ],
+      "mode": "RGB",
+      "sha256": "63bb9564b35ec788e634f65c02744631bfdf7ccf987cd233be31c51fe6c1dd13"
+    },
+    {
+      "path": "assets/generated/bhai/inbox/ui/heart_empty_raw.png",
+      "size": [
+        2048,
+        2048
+      ],
+      "mode": "RGB",
+      "sha256": "d951dcaaf707a3fe31c55a25cd5bda21dea85d80e890ac357f96f7116af42c7d"
+    },
+    {
+      "path": "assets/generated/bhai/inbox/ui/heart_full_raw.png",
+      "size": [
+        2048,
+        2048
+      ],
+      "mode": "RGB",
+      "sha256": "960db9c09d8088d23f436c3b54eb848e67f55b2a378107efcc8f9eb76bada182"
+    },
+    {
+      "path": "assets/generated/bhai/inbox/ui/shield_ready_raw.png",
+      "size": [
+        2048,
+        2048
+      ],
+      "mode": "RGB",
+      "sha256": "8279472a22cb1f60caaf37b981136df61e359bd40a5a904f77d9247232b6f85d"
+    }
+  ],
+  "generated": [
+    {
+      "path": "assets/generated/bhai/effects_atlas_raw.png",
+      "size": [
+        2048,
+        2048
+      ],
+      "mode": "RGB",
+      "sha256": "e0190fc775bcbe115df3b2058133fde926eb32e387b8af868d59e8c0419108a0"
+    },
+    {
+      "path": "assets/generated/bhai/enemy_sheet_raw.png",
+      "size": [
+        2048,
+        2048
+      ],
+      "mode": "RGB",
+      "sha256": "3d98f8830b0a96ca45e648702fd8d135c3619a174fdd9542cb41b5fe9114a812"
+    },
+    {
+      "path": "assets/generated/bhai/player_sheet_raw.png",
+      "size": [
+        2048,
+        2048
+      ],
+      "mode": "RGB",
+      "sha256": "373b739517069b62d3e9d379ce0e79fb5ceb6888b1ce4f2f3b97b1d579dcad03"
+    },
+    {
+      "path": "assets/generated/bhai/scene_heartcore_forest_960x540.png",
+      "size": [
+        960,
+        540
+      ],
+      "mode": "RGB",
+      "sha256": "970c1868f8ea7e0f8e81e272a97556690de751d7c79364c2bcce6330bf1ba1ca"
+    },
+    {
+      "path": "assets/generated/bhai/scene_heartcore_forest_core_512.png",
+      "size": [
+        512,
+        512
+      ],
+      "mode": "RGB",
+      "sha256": "f5f6331c9a4518b59d00b210150d4d3103b19b72d9fa21b695b42383435bf4cd"
+    },
+    {
+      "path": "assets/generated/bhai/tileset_ruins_raw.png",
+      "size": [
+        2048,
+        2048
+      ],
+      "mode": "RGB",
+      "sha256": "f90d2ce414daba3cfa3684202c0339123e9ab5dc366fb4c32809f8f10e46826b"
+    },
+    {
+      "path": "assets/sprites/arrhythmia_boss_sheet.png",
+      "size": [
+        256,
+        256
+      ],
+      "mode": "RGBA",
+      "sha256": "8d7b5522601c88b23f7b99843beaa20e3589b8dbd3ce50f19c70402f6c497e6a"
+    },
+    {
+      "path": "assets/sprites/enemy_siphonling_death_down.png",
+      "size": [
+        32,
+        32
+      ],
+      "mode": "RGBA",
+      "sha256": "2a8023d5481ae874e2812c44a0049e3b4d1182746edcbe0d1c86e4345d81d8f1"
+    },
+    {
+      "path": "assets/sprites/enemy_siphonling_death_left.png",
+      "size": [
+        32,
+        32
+      ],
+      "mode": "RGBA",
+      "sha256": "5726c081eb109bfc213fc487571ebbec3e909c63c0e5c29b649641905022a38f"
+    },
+    {
+      "path": "assets/sprites/enemy_siphonling_death_right.png",
+      "size": [
+        32,
+        32
+      ],
+      "mode": "RGBA",
+      "sha256": "185d48a7d86889dfd132ef95c52aaebd3785f325891f65c85d316849c98d38ae"
+    },
+    {
+      "path": "assets/sprites/enemy_siphonling_death_up.png",
+      "size": [
+        32,
+        32
+      ],
+      "mode": "RGBA",
+      "sha256": "1912b1105d518b82e2fece15a3b33ebda32abe4800ef9f07c73f424b360982ad"
+    },
+    {
+      "path": "assets/sprites/enemy_siphonling_hurt_down.png",
+      "size": [
+        32,
+        32
+      ],
+      "mode": "RGBA",
+      "sha256": "807b184cc878341afc8bf95574bf3df057a48aae4c6cc3a9aede7486fa2d43d5"
+    },
+    {
+      "path": "assets/sprites/enemy_siphonling_hurt_left.png",
+      "size": [
+        32,
+        32
+      ],
+      "mode": "RGBA",
+      "sha256": "b8906748030b7f65fe46baa6a3cb2cfb247e768419ff24b3adc27b6f461e30b1"
+    },
+    {
+      "path": "assets/sprites/enemy_siphonling_hurt_right.png",
+      "size": [
+        32,
+        32
+      ],
+      "mode": "RGBA",
+      "sha256": "32c621df1808971e835260a87c7e81b0867eb9f4c8ff655358909e73e2a0f590"
+    },
+    {
+      "path": "assets/sprites/enemy_siphonling_hurt_up.png",
+      "size": [
+        32,
+        32
+      ],
+      "mode": "RGBA",
+      "sha256": "52c970db50e430a4fa72b284ae63af1c4b2025a215b88c8ab1ce114a4fb92d61"
+    },
+    {
+      "path": "assets/sprites/enemy_siphonling_sheet.png",
+      "size": [
+        128,
+        128
+      ],
+      "mode": "RGBA",
+      "sha256": "c18efb2415273b1750b209ca9794e9b7e4c5b796e509f0bc997c7d89d764e631"
+    },
+    {
+      "path": "assets/sprites/enemy_siphonling_sheet_attack.png",
+      "size": [
+        32,
+        128
+      ],
+      "mode": "RGBA",
+      "sha256": "82d4aa36c704e5e52d1b053c0365662d53c5a4313829aac17a3a1c8aa5e77980"
+    },
+    {
+      "path": "assets/sprites/enemy_siphonling_sheet_idle.png",
+      "size": [
+        32,
+        128
+      ],
+      "mode": "RGBA",
+      "sha256": "24f34e4bab9a5690a92f1db5fa64743747c6ad73c228c090dd300bdf74813e7b"
+    },
+    {
+      "path": "assets/sprites/enemy_siphonling_sheet_step_1.png",
+      "size": [
+        32,
+        128
+      ],
+      "mode": "RGBA",
+      "sha256": "9bcbc21c265008c01f899fbac6e5d3d92893afe49de860bb9c83e8e0d7c5cff7"
+    },
+    {
+      "path": "assets/sprites/enemy_siphonling_sheet_step_2.png",
+      "size": [
+        32,
+        128
+      ],
+      "mode": "RGBA",
+      "sha256": "fe1a73f6de7fbddfa9e64305941d1e29a523e57107e88ad85c089873aa18f269"
+    },
+    {
+      "path": "assets/sprites/oxygen_reservoir_sheet.png",
+      "size": [
+        256,
+        256
+      ],
+      "mode": "RGBA",
+      "sha256": "91f0b12d57c6ca879708679e7557acdd9ee2573b3a838cbb6aace00d6e80349a"
+    },
+    {
+      "path": "assets/sprites/piston_colossus_sheet.png",
+      "size": [
+        256,
+        256
+      ],
+      "mode": "RGBA",
+      "sha256": "5a72c9e3add641860e213cca0d724d79aee18fd2583099bbf320f4ce48f9227a"
+    },
+    {
+      "path": "assets/sprites/player_death_down.png",
+      "size": [
+        32,
+        32
+      ],
+      "mode": "RGBA",
+      "sha256": "9af2a32e0741925b5ee4126a77852dc7af97118a874b322637e9d7ba97d4841f"
+    },
+    {
+      "path": "assets/sprites/player_death_left.png",
+      "size": [
+        32,
+        32
+      ],
+      "mode": "RGBA",
+      "sha256": "cb92bb7a80a64c452b0e2982afb2bf72db664f84cb7ad301d55fe912ef4aeecc"
+    },
+    {
+      "path": "assets/sprites/player_death_right.png",
+      "size": [
+        32,
+        32
+      ],
+      "mode": "RGBA",
+      "sha256": "251f491d3641036def2f47abe897a7e0b8e2bd785c1b0f88815618b04cd55d11"
+    },
+    {
+      "path": "assets/sprites/player_death_up.png",
+      "size": [
+        32,
+        32
+      ],
+      "mode": "RGBA",
+      "sha256": "885e12181f98e4467e213c05ce2e5d11ef3f8cd4c0d8f9ebd9d225a3240f1d01"
+    },
+    {
+      "path": "assets/sprites/player_hurt_down.png",
+      "size": [
+        32,
+        32
+      ],
+      "mode": "RGBA",
+      "sha256": "4943d6d87683317c391870a74a1a14c010902bf62a24c7a0ffe6ad0d79d1d46d"
+    },
+    {
+      "path": "assets/sprites/player_hurt_left.png",
+      "size": [
+        32,
+        32
+      ],
+      "mode": "RGBA",
+      "sha256": "509fc61ca750f77966f62adbd8f65aa193c33686acde433773aa5b88ca9f1bb4"
+    },
+    {
+      "path": "assets/sprites/player_hurt_right.png",
+      "size": [
+        32,
+        32
+      ],
+      "mode": "RGBA",
+      "sha256": "caa925662f4eaf27744f46f3455a7177bfe7535d252c84858c18e53aa5339185"
+    },
+    {
+      "path": "assets/sprites/player_hurt_up.png",
+      "size": [
+        32,
+        32
+      ],
+      "mode": "RGBA",
+      "sha256": "40afb4ff774e7b9d34b767b4357411d105264efae68182ee08175e952de482f9"
+    },
+    {
+      "path": "assets/sprites/player_sheet.png",
+      "size": [
+        128,
+        128
+      ],
+      "mode": "RGBA",
+      "sha256": "efaf00fb9874e7755937feab56c45ba12d2bd15aa758a324c61146f48eade224"
+    },
+    {
+      "path": "assets/sprites/player_sheet_attack.png",
+      "size": [
+        32,
+        128
+      ],
+      "mode": "RGBA",
+      "sha256": "b410f9a5b2e374e78a5e8bbf6b63363d189e5c056aa94ca64ba66af5a172fab1"
+    },
+    {
+      "path": "assets/sprites/player_sheet_idle.png",
+      "size": [
+        32,
+        128
+      ],
+      "mode": "RGBA",
+      "sha256": "8e83fdeb7752fbc7293e4dd5952b12d35df3b1422bd275ea151f6a0313276d68"
+    },
+    {
+      "path": "assets/sprites/player_sheet_step_1.png",
+      "size": [
+        32,
+        128
+      ],
+      "mode": "RGBA",
+      "sha256": "a955b2b47b7e1e7d590c62a15400b495a8d0da1a103fdf872281eb8ddfb548a3"
+    },
+    {
+      "path": "assets/sprites/player_sheet_step_2.png",
+      "size": [
+        32,
+        128
+      ],
+      "mode": "RGBA",
+      "sha256": "d757b9b2701e3bc0bf74cfd2d83a7e6d96dfa02a1dbd2d6d2bd2e72cf15ea3f6"
+    },
+    {
+      "path": "assets/sprites/spit_slug_death_down.png",
+      "size": [
+        32,
+        32
+      ],
+      "mode": "RGBA",
+      "sha256": "be30c0699304cd39b62dbba3dc1a75229a978a0b5df0369892564d9c4775eb35"
+    },
+    {
+      "path": "assets/sprites/spit_slug_death_left.png",
+      "size": [
+        32,
+        32
+      ],
+      "mode": "RGBA",
+      "sha256": "0556ef55187f8fc29d41095fdc3a7cb7d89a17a89565f1c8e6560d0528f77591"
+    },
+    {
+      "path": "assets/sprites/spit_slug_death_right.png",
+      "size": [
+        32,
+        32
+      ],
+      "mode": "RGBA",
+      "sha256": "c47820b93057a8693ebc453c353b7449bbca2a0485762f30702a999d781bffa1"
+    },
+    {
+      "path": "assets/sprites/spit_slug_death_up.png",
+      "size": [
+        32,
+        32
+      ],
+      "mode": "RGBA",
+      "sha256": "4f70b89c997d29d7f24b7823b1a0bf983deecb208fa80df0ca290b3a0897cdfd"
+    },
+    {
+      "path": "assets/sprites/spit_slug_hurt_down.png",
+      "size": [
+        32,
+        32
+      ],
+      "mode": "RGBA",
+      "sha256": "8457f5df766e433a1f340f1644b843dbc8d5e78cffd942285ad9310e1be3b06f"
+    },
+    {
+      "path": "assets/sprites/spit_slug_hurt_left.png",
+      "size": [
+        32,
+        32
+      ],
+      "mode": "RGBA",
+      "sha256": "897b62a5ac139fe6ff8f63c060cb3901778da62ef5f706dcaf5a7092ba867ad2"
+    },
+    {
+      "path": "assets/sprites/spit_slug_hurt_right.png",
+      "size": [
+        32,
+        32
+      ],
+      "mode": "RGBA",
+      "sha256": "bd434eed28de987449e882c021f73b830b7ba7acc8bf7fea21f332c404a54bf6"
+    },
+    {
+      "path": "assets/sprites/spit_slug_hurt_up.png",
+      "size": [
+        32,
+        32
+      ],
+      "mode": "RGBA",
+      "sha256": "8aaa4b06bc662a0b7e2fcc15d70cb01f70a5af174899dc352aecf8d75ae1d276"
+    },
+    {
+      "path": "assets/sprites/spit_slug_sheet.png",
+      "size": [
+        128,
+        128
+      ],
+      "mode": "RGBA",
+      "sha256": "316cfd66a3a6c233eb068027f79ba53d77a931c00a8aaa65d7cb4d879dc439cc"
+    },
+    {
+      "path": "assets/sprites/spit_slug_sheet_attack.png",
+      "size": [
+        32,
+        128
+      ],
+      "mode": "RGBA",
+      "sha256": "36fa5eddfd30a646385b5200b5a670db16012f75a0c8f32cf5aaddf6e155c756"
+    },
+    {
+      "path": "assets/sprites/spit_slug_sheet_idle.png",
+      "size": [
+        32,
+        128
+      ],
+      "mode": "RGBA",
+      "sha256": "6e80dc62d5cfd64aa925e570099ea9fb01b465a939203f4e2bddd7a7e5ff06dc"
+    },
+    {
+      "path": "assets/sprites/spit_slug_sheet_step_1.png",
+      "size": [
+        32,
+        128
+      ],
+      "mode": "RGBA",
+      "sha256": "17779de527d8046655f654a7f38fe1c510347e05301c16a37873f9b9fcec9697"
+    },
+    {
+      "path": "assets/sprites/spit_slug_sheet_step_2.png",
+      "size": [
+        32,
+        128
+      ],
+      "mode": "RGBA",
+      "sha256": "26d5a95207d254c0b82be216f8ad34d5f3c04092763876bd5f0e63752bd420b6"
+    },
+    {
+      "path": "assets/sprites/venous_glutton_death_down.png",
+      "size": [
+        64,
+        64
+      ],
+      "mode": "RGBA",
+      "sha256": "f895e042e9c0c39e5b398e0b7b0fa2c7a1a4d6b9cb0cf971f2c443e5dcd49745"
+    },
+    {
+      "path": "assets/sprites/venous_glutton_death_left.png",
+      "size": [
+        64,
+        64
+      ],
+      "mode": "RGBA",
+      "sha256": "bb4cc5907ee2274ca695676016a7f9540cc3aa89cb9d7384aaccdbd5478e7ee3"
+    },
+    {
+      "path": "assets/sprites/venous_glutton_death_right.png",
+      "size": [
+        64,
+        64
+      ],
+      "mode": "RGBA",
+      "sha256": "2c15ea3fde707cc56966eb0c9292c84fbbd77762101067c52ceedd6a1c917e71"
+    },
+    {
+      "path": "assets/sprites/venous_glutton_death_up.png",
+      "size": [
+        64,
+        64
+      ],
+      "mode": "RGBA",
+      "sha256": "f76830414f2e1b1ff739385f83db4ed76adce7d40ae559015fe8ac2037f3fa60"
+    },
+    {
+      "path": "assets/sprites/venous_glutton_hurt_down.png",
+      "size": [
+        64,
+        64
+      ],
+      "mode": "RGBA",
+      "sha256": "4785ec925bc6e3793853084faacea946b9029217dc0f272f2ccd53994b69e293"
+    },
+    {
+      "path": "assets/sprites/venous_glutton_hurt_left.png",
+      "size": [
+        64,
+        64
+      ],
+      "mode": "RGBA",
+      "sha256": "e51a5d7bc1df1a515fdd0c049b51eb6c8a6787378390536061ab20d19ea93f1c"
+    },
+    {
+      "path": "assets/sprites/venous_glutton_hurt_right.png",
+      "size": [
+        64,
+        64
+      ],
+      "mode": "RGBA",
+      "sha256": "12d707e1a71462bf120231836915eca55358d9ee6d847a5eceef8ef8ca720212"
+    },
+    {
+      "path": "assets/sprites/venous_glutton_hurt_up.png",
+      "size": [
+        64,
+        64
+      ],
+      "mode": "RGBA",
+      "sha256": "e3df512fc78777a246ea17224f50f1bced6a54f3d863ed1d4aae32e9698e4a1d"
+    },
+    {
+      "path": "assets/sprites/venous_glutton_sheet.png",
+      "size": [
+        256,
+        256
+      ],
+      "mode": "RGBA",
+      "sha256": "5b556d124f533bbdb83e46c74dc448b1e8a0154c8fba1d765ffb136a11ef356b"
+    },
+    {
+      "path": "assets/sprites/venous_glutton_sheet_attack.png",
+      "size": [
+        64,
+        256
+      ],
+      "mode": "RGBA",
+      "sha256": "456600aed93327be4c449c99f1db23d8d5f5f665c22e14767571a357bebbd867"
+    },
+    {
+      "path": "assets/sprites/venous_glutton_sheet_idle.png",
+      "size": [
+        64,
+        256
+      ],
+      "mode": "RGBA",
+      "sha256": "106a4688ebd31a8b2b61b73837fbb5ca4077d7c306f1afc87e814318416a4cdd"
+    },
+    {
+      "path": "assets/sprites/venous_glutton_sheet_phase_1.png",
+      "size": [
+        64,
+        256
+      ],
+      "mode": "RGBA",
+      "sha256": "8556674754bf6f106c00523d25520051ebd5599a8f5679cfa663429cb395a917"
+    },
+    {
+      "path": "assets/sprites/venous_glutton_sheet_phase_2.png",
+      "size": [
+        64,
+        256
+      ],
+      "mode": "RGBA",
+      "sha256": "0cbd9aa102825ea5e806d1ee72d361085b03e3aa4420d1a2c3f383d50534fadb"
+    },
+    {
+      "path": "assets/tilesets/kenney_roguelike_rpg_sheet.png",
+      "size": [
+        968,
+        526
+      ],
+      "mode": "RGBA",
+      "sha256": "a83884defbf5dc0f0197a51e67bb66c1faa61d88ae787bcc4a87181488387dde"
+    },
+    {
+      "path": "assets/tilesets/kenney_tiny_dungeon_tilemap.png",
+      "size": [
+        203,
+        186
+      ],
+      "mode": "RGBA",
+      "sha256": "2721366edfcc8fd93d00deb244b2fad921b5eee3d87c892d999c322b98b95a38"
+    },
+    {
+      "path": "assets/tilesets/ruin_forest_atlas_16.png",
+      "size": [
+        128,
+        64
+      ],
+      "mode": "RGBA",
+      "sha256": "6641a3e895200b10e3480cec9bd42d35dbd3aff8c637f23c3201f3ba30dae449"
+    },
+    {
+      "path": "assets/ui/charge_one.png",
+      "size": [
+        16,
+        16
+      ],
+      "mode": "RGBA",
+      "sha256": "a6c6e69a192e4232e5be2fb577a9b01d91c60bcb551826ef5030d05165a1760c"
+    },
+    {
+      "path": "assets/ui/heart_empty.png",
+      "size": [
+        16,
+        16
+      ],
+      "mode": "RGBA",
+      "sha256": "735f8b33fc32aaddea86acab2a4b2fcbe830eaa6e6be60003772c9da05a5c3ed"
+    },
+    {
+      "path": "assets/ui/heart_full.png",
+      "size": [
+        16,
+        16
+      ],
+      "mode": "RGBA",
+      "sha256": "a03ee3b8495ff8b821bf483904b6c559f0c1b3bfd54b2f6e1010b302aa0599b1"
+    },
+    {
+      "path": "assets/ui/hud_icons_cc0.png",
+      "size": [
+        64,
+        16
+      ],
+      "mode": "RGBA",
+      "sha256": "9face80a90d5aa5172ae0fc8eded6e8ef950a5267c8854963ac786235e1adb07"
+    },
+    {
+      "path": "assets/ui/mvp_state_icons.png",
+      "size": [
+        64,
+        16
+      ],
+      "mode": "RGBA",
+      "sha256": "1e4494e5d415f22af632ccbff45e25f8a2c13623235a5d776bf1766cd52b547e"
+    },
+    {
+      "path": "assets/ui/shield_ready.png",
+      "size": [
+        16,
+        16
+      ],
+      "mode": "RGBA",
+      "sha256": "33d2f9bcaaaba7004dac78e3cd5fb5d7275571fabc817397986230e5e4283b87"
+    },
+    {
+      "path": "assets/effects/blood_sediment_hazard_sheet.png",
+      "size": [
+        128,
+        32
+      ],
+      "mode": "RGBA",
+      "sha256": "22d663a28ec3ce352bceec5768d80f86dd0baa8e34fa0bc656bddb8027587b35"
+    },
+    {
+      "path": "assets/effects/combat_effects_atlas.png",
+      "size": [
+        128,
+        128
+      ],
+      "mode": "RGBA",
+      "sha256": "71a162c16a847a7962db14951bdf037cd99e5cd8248139c7e9c601eadf23ebf0"
+    },
+    {
+      "path": "assets/effects/defibrillation_countdown_sheet.png",
+      "size": [
+        256,
+        64
+      ],
+      "mode": "RGBA",
+      "sha256": "16c54ec0b181e4a3d14fff61d8f8d023773a3036af9595d209cb6cc7c46a6640"
+    },
+    {
+      "path": "assets/effects/fx_room_exit_portal_sheet.png",
+      "size": [
+        192,
+        64
+      ],
+      "mode": "RGBA",
+      "sha256": "07e88b32c50821a211dc1c1bea2e34438d9345c9b64bb4c1eeab21d71dc3d490"
+    },
+    {
+      "path": "assets/effects/fx_weapon_clash_sheet.png",
+      "size": [
+        128,
+        32
+      ],
+      "mode": "RGBA",
+      "sha256": "389b13aeba4ec6f8e9f60f5537d5a632941d45fe083c6339f13f9c07dff8e73a"
+    },
+    {
+      "path": "assets/effects/ground_spike_wave_sheet.png",
+      "size": [
+        256,
+        64
+      ],
+      "mode": "RGBA",
+      "sha256": "c6a492bbc0467613f64411a953f650e722a5607345092429ebba262d527afb3a"
+    },
+    {
+      "path": "assets/effects/mud_projectile_sheet.png",
+      "size": [
+        128,
+        32
+      ],
+      "mode": "RGBA",
+      "sha256": "cd9fb3456099391aee3d0fde1144b6eac492821ca2bbe5495eee0015a7ba9569"
+    },
+    {
+      "path": "assets/effects/noise_projectile_sheet.png",
+      "size": [
+        256,
+        64
+      ],
+      "mode": "RGBA",
+      "sha256": "839c2d7192ce3227392ca0cfce98cb8f747bc1eda88457b04825a2c199a5ee03"
+    },
+    {
+      "path": "assets/effects/oxygen_charge_sheet.png",
+      "size": [
+        256,
+        64
+      ],
+      "mode": "RGBA",
+      "sha256": "96cabd120c23251f954ecf06197542f5fcc314778760e77fcf5821802628782e"
+    },
+    {
+      "path": "assets/effects/piston_strike_sheet.png",
+      "size": [
+        256,
+        64
+      ],
+      "mode": "RGBA",
+      "sha256": "32227af40dd53a6e176c518bea3d79deeb840263a6c99ba8efede45ef04539f0"
+    },
+    {
+      "path": "assets/effects/pulmonary_jet_sheet.png",
+      "size": [
+        256,
+        64
+      ],
+      "mode": "RGBA",
+      "sha256": "a2d2feac134fd9695cc3b5a86faef71655d81edfed2b707987051349499007b8"
+    },
+    {
+      "path": "assets/objects/heart_core_v2.png",
+      "size": [
+        96,
+        96
+      ],
+      "mode": "RGBA",
+      "sha256": "9605b3b1f2bf83648f8fcee5fb5344b6891a92bab16563746b6ac9840ec939d3"
+    },
+    {
+      "path": "assets/objects/portal_oxygen_flow_sheet.png",
+      "size": [
+        384,
+        96
+      ],
+      "mode": "RGBA",
+      "sha256": "aa3641128b08e1ae8f34aba265009675ad157cd343b8743488c43d7299a68c28"
+    },
+    {
+      "path": "assets/objects/portal_pressurized_sheet.png",
+      "size": [
+        384,
+        96
+      ],
+      "mode": "RGBA",
+      "sha256": "4edaf6be2e0399c4fb78e856b2a8e12674b0e9b79d32fc6192d47ae1236184f5"
+    },
+    {
+      "path": "assets/objects/portal_prime_resonance_sheet.png",
+      "size": [
+        384,
+        96
+      ],
+      "mode": "RGBA",
+      "sha256": "9ce4596b1613e5315bbc32044d34927710301bed5c95a55513b46e4f35bb0b06"
+    },
+    {
+      "path": "assets/objects/reward_shrine.png",
+      "size": [
+        64,
+        64
+      ],
+      "mode": "RGBA",
+      "sha256": "58ce8c560fe2b24ceba06f4e63a2288425fc8234a5e2449ff878c8a138b57c9a"
+    },
+    {
+      "path": "assets/items/echo_guard.png",
+      "size": [
+        24,
+        24
+      ],
+      "mode": "RGBA",
+      "sha256": "3a1c54ee2d92e42d6130a20eb6d4fdc8b439a8f7f557e92ce2ab329d4432195a"
+    },
+    {
+      "path": "assets/items/echo_impact.png",
+      "size": [
+        32,
+        32
+      ],
+      "mode": "RGBA",
+      "sha256": "74499e6c63fbc8c2ff1e7c33fd25d56e2f6460e6eb006a345cb57812a084de4d"
+    },
+    {
+      "path": "assets/items/echo_pulse.png",
+      "size": [
+        32,
+        32
+      ],
+      "mode": "RGBA",
+      "sha256": "21e5b3b6ab3a556fdcc614be650101ab78e9a9dc4047d118d291a3eb6bc4e213"
+    },
+    {
+      "path": "assets/items/echo_tempo.png",
+      "size": [
+        24,
+        24
+      ],
+      "mode": "RGBA",
+      "sha256": "067c83b8a06bd4229165ab78d0104b1bc8b890a2bdfe41551aa418df033fa231"
+    },
+    {
+      "path": "assets/items/echo_vigor.png",
+      "size": [
+        32,
+        32
+      ],
+      "mode": "RGBA",
+      "sha256": "60d9c108b547c29a97b00f4e531641fc9d8395b6dfe0a15291c41df2318aee8e"
+    },
+    {
+      "path": "assets/backgrounds/heartcore_forest_room.png",
+      "size": [
+        960,
+        540
+      ],
+      "mode": "RGB",
+      "sha256": "fbb516aeec1e21e1f9aca81785aff9b6d4f7f851432b002357db0b73ed351f92"
+    },
+    {
+      "path": "assets/backgrounds/room_boss.png",
+      "size": [
+        960,
+        540
+      ],
+      "mode": "RGB",
+      "sha256": "2a0685d56312084b5991fb6c3e90da30f1d524f9c248931190a4fd6c1c06e1c8"
+    },
+    {
+      "path": "assets/backgrounds/room_hard.png",
+      "size": [
+        960,
+        540
+      ],
+      "mode": "RGB",
+      "sha256": "95cc76b0d17d391a727b8194c6738b9da73b4b21397c71904b1a5bbf64571939"
+    },
+    {
+      "path": "assets/backgrounds/room_left_atrium.png",
+      "size": [
+        960,
+        540
+      ],
+      "mode": "RGB",
+      "sha256": "2753e11b5f8d33a4645e22c975be13a78ee71f4bdcd32ebde0fd1c2c14cceb3f"
+    },
+    {
+      "path": "assets/backgrounds/room_left_ventricle.png",
+      "size": [
+        960,
+        540
+      ],
+      "mode": "RGB",
+      "sha256": "a3df2093372d33315ac104066cd967df9b7500c917cfc831f6f390e13735f874"
+    },
+    {
+      "path": "assets/backgrounds/room_restored.png",
+      "size": [
+        960,
+        540
+      ],
+      "mode": "RGB",
+      "sha256": "d068ac976606166582928bdbd126af54d0bc36f192d71ad0cfd63794d964da02"
+    },
+    {
+      "path": "assets/backgrounds/room_reward.png",
+      "size": [
+        960,
+        540
+      ],
+      "mode": "RGB",
+      "sha256": "f3ed96922fdf4d089bfd29ce6ebc3a9ae240597ffc6bc3ee069387ebd2d4a764"
+    },
+    {
+      "path": "assets/backgrounds/room_right_ventricle.png",
+      "size": [
+        960,
+        540
+      ],
+      "mode": "RGB",
+      "sha256": "32a890000dd502e5b72446751b60bf3744f5888a652b002aa45fefa5303ea040"
+    },
+    {
+      "path": "assets/transitions/trans_atrium_to_ventricle.png",
+      "size": [
+        960,
+        540
+      ],
+      "mode": "RGB",
+      "sha256": "63aa8bf1bfed2be23ed6d3e3a9e59570e0e8c3e2b2d674df9477ea8ac1e62a3c"
+    },
+    {
+      "path": "assets/transitions/trans_atrium_to_ventricle4.png",
+      "size": [
+        960,
+        540
+      ],
+      "mode": "RGB",
+      "sha256": "8de41b3a01a8127231763366f36aba5e3b6f82ae06430b50c70bb150987e38d0"
+    },
+    {
+      "path": "assets/transitions/trans_ending_revival.png",
+      "size": [
+        960,
+        540
+      ],
+      "mode": "RGB",
+      "sha256": "f695f5bfd697c7f603c1403fe8e7f94a4b9ef4101f7f34bd82a034ef119991ae"
+    },
+    {
+      "path": "assets/transitions/trans_ventricle_to_atrium.png",
+      "size": [
+        960,
+        540
+      ],
+      "mode": "RGB",
+      "sha256": "60509499e0304b54a0b4ad6c6c56943255f9bdf6bba4e3839df8342814d20847"
+    }
+  ]
+}

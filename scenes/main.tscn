@@ -1,0 +1,128 @@
+[gd_scene load_steps=4 format=3]
+
+[ext_resource type="Script" path="res://scripts/main.gd" id="1_main"]
+[ext_resource type="FontFile" path="res://assets/fonts/FusionPixel_12px_Proportional_zh_hans.ttf" id="2_pixel_font"]
+
+[sub_resource type="Theme" id="Theme_pixel"]
+default_font = ExtResource("2_pixel_font")
+
+[node name="Main" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme = SubResource("Theme_pixel")
+script = ExtResource("1_main")
+
+[node name="Metronome" type="AudioStreamPlayer" parent="."]
+volume_db = -8.0
+
+[node name="Title" type="Label" parent="."]
+layout_mode = 0
+offset_left = 48.0
+offset_top = 25.0
+offset_right = 500.0
+offset_bottom = 69.0
+theme_override_colors/font_color = Color(0.92, 0.96, 1, 1)
+theme_override_colors/font_outline_color = Color(0.01, 0.02, 0.04, 1)
+theme_override_constants/outline_size = 7
+theme_override_font_sizes/font_size = 31
+text = "《律动遗迹》极简玩法展示"
+
+[node name="Subtitle" type="Label" parent="."]
+layout_mode = 0
+offset_left = 48.0
+offset_top = 70.0
+offset_right = 500.0
+offset_bottom = 100.0
+theme_override_colors/font_color = Color(0.32, 0.75, 0.86, 1)
+theme_override_font_sizes/font_size = 15
+text = "蓝色：玩家　红色：BOSS　仅用于说明核心概念"
+
+[node name="HudLabel" type="Label" parent="."]
+unique_name_in_owner = true
+layout_mode = 0
+offset_left = 575.0
+offset_top = 173.0
+offset_right = 875.0
+offset_bottom = 290.0
+theme_override_colors/font_color = Color(0.86, 0.91, 0.96, 1)
+theme_override_constants/line_spacing = 4
+theme_override_font_sizes/font_size = 18
+text = "BPM　100"
+
+[node name="HelpLabel" type="Label" parent="."]
+layout_mode = 0
+offset_left = 575.0
+offset_top = 392.0
+offset_right = 875.0
+offset_bottom = 444.0
+theme_override_colors/font_color = Color(0.58, 0.68, 0.77, 1)
+theme_override_constants/line_spacing = 2
+theme_override_font_sizes/font_size = 14
+text = "WASD / 方向键：移动或相邻攻击\nR：重新开始　·　每拍只行动一次"
+horizontal_alignment = 1
+
+[node name="StatusLabel" type="Label" parent="."]
+unique_name_in_owner = true
+layout_mode = 0
+offset_left = 38.0
+offset_top = 475.0
+offset_right = 922.0
+offset_bottom = 525.0
+theme_override_colors/font_color = Color(0.2, 0.9, 0.98, 1)
+theme_override_colors/font_outline_color = Color(0.01, 0.02, 0.04, 1)
+theme_override_constants/outline_size = 6
+theme_override_font_sizes/font_size = 20
+text = "准备：黄点进入绿色区域时按方向键"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="EndOverlay" type="ColorRect" parent="."]
+unique_name_in_owner = true
+visible = false
+z_index = 20
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+color = Color(0.015, 0.025, 0.045, 0.91)
+
+[node name="Center" type="VBoxContainer" parent="EndOverlay"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -340.0
+offset_top = -90.0
+offset_right = 340.0
+offset_bottom = 90.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/separation = 22
+alignment = 1
+
+[node name="EndTitle" type="Label" parent="EndOverlay/Center"]
+unique_name_in_owner = true
+layout_mode = 2
+theme_override_colors/font_color = Color(0.34, 0.92, 0.58, 1)
+theme_override_colors/font_outline_color = Color(0.01, 0.02, 0.04, 1)
+theme_override_constants/outline_size = 8
+theme_override_font_sizes/font_size = 40
+text = "展示完成：击败 BOSS"
+horizontal_alignment = 1
+
+[node name="EndBody" type="Label" parent="EndOverlay/Center"]
+unique_name_in_owner = true
+layout_mode = 2
+theme_override_colors/font_color = Color(0.86, 0.91, 0.96, 1)
+theme_override_font_sizes/font_size = 20
+text = "这只是核心玩法草模，不代表正式开发完成。\n按 R 或 Enter 重新演示"
+horizontal_alignment = 1
