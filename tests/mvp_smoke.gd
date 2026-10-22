@@ -1004,6 +1004,10 @@ func _test_directional_state_anchors() -> void:
 func _test_scene_charge_and_shield_assist() -> void:
 	var scene := MvpScene.instantiate()
 	root.add_child(scene)
+	# Isolate the persisted player chart offset (user://mvp_settings.cfg); a
+	# player-saved offset shifts the judgement centre and makes the absolute
+	# assist/miss times below misclassify. Tests must not depend on user data.
+	scene.configure_timing(0.0)
 	var clock: BeatClock = scene.beat_clock
 	clock.stop()
 	_expect(scene.submit_charge_at(clock.beat_center_time), "scene accepts timed charge")

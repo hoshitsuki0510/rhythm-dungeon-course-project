@@ -526,7 +526,7 @@ func _on_beat_resolved(resolved_beat_number: int) -> void:
 		elif String(result.get("enemies", []).front().get("kind", "")) == "phase_shift":
 			rhythm_hud.set_phase_warning(false)
 			beat_clock.set_bpm_preserving_phase(room_state.get_bpm())
-			rhythm_hud.show_phase_shift()
+			room_view.show_phase_shift()
 			_set_status("律畸进入第二阶段 · 140 BPM", COLOR_WARNING)
 	if room_state.room_kind != StateScript.ROOM_BOSS and room_state.can_leave_room() and room_state.is_at_exit():
 		_schedule_next_room()
