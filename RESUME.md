@@ -1,6 +1,6 @@
 # 小学期 2D 节奏闯关游戏项目恢复入口
 
-更新时间：2026-09-22
+更新时间：2026-10-22
 
 > 本文件是所有本项目新会话的第一读取入口。聊天记录不是项目事实源；若聊天、记忆摘要或本文件与实际文件、Git 历史、构建产物或测试结果冲突，以可复核的实际证据为准。
 
@@ -203,19 +203,18 @@
 
 ## 当前下一安全动作
 
-合并主策划案已获用户确认；第一层右心房逻辑、两项素材替换、结算/移动/转场修正、四层功能骨架、三种 Boss 最小机制、直接层间传送、首页背景解码、正式首页/UI 收敛、全局回响顺序和 3 个上层 Boss 静态 atlas 接入均已完成并通过本地自动回归。下一动作保持以下顺序：
+课程结题（2026-09-05）与 ELEX 比赛提交（2026-09-13）均已完成交付；2026-10-22 已修复 4F Boss 半血变 BPM 卡死并使全量回归首次真全绿。下一动作保持以下顺序：
 
-1. 用户试玩首页透明度、生命值下方键位提示、第一层地板/出口视觉和 Boss 名称简洁度。
-2. 用户试玩第一层至 4F 的完整房间流转；重点观察 2F 活塞行列预警/走位、3F 四拍充能打断、4F 除颤换相与 140 BPM 三向攻击、奖励跨层排除和中央传送。
-3. 如后续确需美术替换，优先按 `GENERATION_QUEUE.md` 的“本轮缩减范围下的最少必要生成清单”生成 2F/3F/4F 各 1 张可复用主背景，再生成 3 张专用中央传送门；其他 PENDING 不阻塞开发。
-4. 当前本地 Git 已按现有工程内容重建为单一基线；`交付/` 归档保持本地并由 `.gitignore` 排除。公开推送仍需用户另行授权，并先复核生成素材授权、Windows 实机验收和暂存区内容。
+1. 用户实机复验 4F 修复：F7 → 4F → Boss（可配合 F6 无限生命），把 Boss 打到半血触发四拍除颤，确认 105→140 BPM 切换后仍能持续移动/攻击/结算，不再卡死；同时观察换相反馈（全屏闪色、BPM SHIFT 浮字）表现。
+2. 复验通过后由用户决定：是否推送 `5d41d6d` 到 `origin/main`，以及是否删除备份分支 `backup/pre-4f-fix`（当前指向修复前 `ccbc97c`）。
+3. 剩余长期未闭环项不变：Windows x86_64 实机验收、生成素材公开再分发授权确认；如后续确需美术替换，按 `GENERATION_QUEUE.md` 的最少必要清单执行。
 
-本次功能闭环证据：`tests/upper_layers_smoke.gd` 输出 `UPPER_LAYERS_SMOKE_OK`；`MVP_SMOKE_OK`、`PROTO_001_SMOKE_OK`、`FONT_SMOKE_OK`、`FIRST_LAYER_ASSETS_OK`、`DIRECTIONAL_STATES_SMOKE_OK`、非 headless `MVP_CAPTURE_OK`（start/action/2F/3F/4F）和 `git diff --check` 均通过。
+本轮功能闭环证据：`FOUR_F_BOSS_BPM_INTEGRATION_OK`、`MVP_SMOKE_OK`、`UPPER_LAYERS_SMOKE_OK`、`BEAT_CLOCK_PHASE_SHIFT_SMOKE_OK`、`PROTO_001_SMOKE_OK`、`FONT_SMOKE_OK`、`FIRST_LAYER_ASSETS_OK`、`DIRECTIONAL_STATES_SMOKE_OK` 和 `git diff --check` 均通过。
 
 推荐的后续会话开场请求：
 
 ```text
-请继续小学期 2D 节奏闯关游戏项目。请先核对 RESUME.md、GENERATION_QUEUE.md、assets/generated/bhai/README.md 和 Git；第一层两项重生素材已派生、接入并通过本地回归与 Godot AI MCP 运行时检查。当前只处理用户明确指定的第一层试玩反馈或第 2～4 层素材批次；不要提交或推送。
+请继续小学期 2D 节奏闯关游戏项目。请先读取 RESUME.md 和项目记忆，再核对 Git 状态。2026-10-22 已修复 4F Boss 半血变 BPM 卡死（提交 5d41d6d，本地）并使 mvp_smoke 首次全绿（根因与修复详见开发记录/问题记录.md）。当前等待用户实机复验 4F 修复结果，再决定推送与备份分支清理；没有用户明确授权不推送远程。
 ```
 - 2026-09-05 修复上层地图运行时对齐：2F 压力管道使用 9×5 可行走格、3F 高氧温室使用 10×5 可行走格、4F 始源心核圣域使用 9×5 可行走格，分别使用各自地图的实际格心、中心心核和右侧出口位置；2F/3F/4F 普通出口改用对应层传送门素材，不再误用第一层出口。4F 律畸由 105 BPM 切换到 140 BPM 时改为保留节拍相位并重置下一拍，避免旧拍点追赶造成控制器锁死。上层地图与 Boss 回归已通过。
 - 2026-09-05 根据用户试玩截图继续修正上层定位：2F 地图原点恢复为素材实际地板起点 `(235,95)`、右侧突出门中心调整为 `(785,235)`，2F 普通出口继续使用缩小后的压力管道传送门；Boss 视觉锚点改为各层地图几何中心，兼容 3F 偶数宽地图；Boss 房中央传送门交互范围扩大到中心附近可达格，避免角色已到传送门边缘但 `E` 不响应。
@@ -230,3 +229,13 @@
 - 实际结果：`BEAT_CLOCK_PHASE_SHIFT_SMOKE_OK`、`UPPER_LAYERS_SMOKE_OK`、`PROTO_001_SMOKE_OK`、`git diff --check` 通过；完整 `MVP_SMOKE_OK` 本轮仍有既有 delayed presentation/rhythm shield 相关失败，未将其误报为通过。
 - 待用户试玩：F7 → 4F → Boss，F6 无限生命，触发半血变奏后连续观察移动、攻击和节拍推进。
 - 仍需 Windows x86_64 实机验收；未创建 Git 提交、未推送远程。
+
+## 2026-10-22 4F 冻结根因修复与回归全绿
+
+- 用户 2026-10-21 报告的「4F Boss 半血变 BPM 后整局卡死」已定位并修复，提交 `5d41d6d`（本地，未推送）。根因不在 `beat_clock`：`scripts/mvp/mvp_controller.gd` 的 `_on_beat_resolved` 在 phase_shift 分支调用了 `rhythm_hud.show_phase_shift()`，而该函数只定义在 `MvpRoomView`；运行时 `Invalid call` 中断回调，`resolving`/`input_locked` 永不复位，此后每拍早退造成冻结。修复为单行改调用目标 `room_view.show_phase_shift()`，玩法内容零增删（换相视觉反馈本就该显示，之前因崩溃从未出现过）。2026-09-05 的时钟层修复本身正确且保留。
+- 新增 `tests/four_f_boss_bpm_integration_smoke.gd` 补上此前缺失的集成层覆盖：真实场景 + 真实 `BeatClock` 帧驱动，断言半血触发、`beat_resolved` 回调内排队变速、变相后 14 拍连续结算与输入、控制器锁无泄漏，输出 `FOUR_F_BOSS_BPM_INTEGRATION_OK`。修复前该测试精确复现用户报告的冻结，修复后通过。
+- `mvp_smoke` 既有 8 项护盾断言失败已查明并解决：根因是测试未隔离 `user://mvp_settings.cfg` 持久化的谱面延时（本机实机存有 `chart_offset_ms=75.0`），非游戏代码缺陷；2026-10-21 Claude 会话对 `get_input_timing` 的怀疑属误诊。修复为测试内 `configure_timing(0.0)`（仅测试侧）。`MVP_SMOKE_OK` 首次真全绿。
+- 已删除 Claude 会话残留的未跟踪脚本 `fix_shield.py`、`fix_shield2.py`（正则与当前代码不符，执行为无效空操作）。
+- 本轮全量回归 8/8 通过：`MVP_SMOKE_OK`、`UPPER_LAYERS_SMOKE_OK`、`BEAT_CLOCK_PHASE_SHIFT_SMOKE_OK`、`PROTO_001_SMOKE_OK`、`FONT_SMOKE_OK`（499 codepoints）、`FOUR_F_BOSS_BPM_INTEGRATION_OK`、`FIRST_LAYER_ASSETS_OK`、`DIRECTIONAL_STATES_SMOKE_OK`，`git diff --check` 通过。
+- Git 现状更正：`e0e5f28` 基线重建后，`ccbc97c`（terra_worker 文档清理）已经用户 2026-10-21 授权推送到 `origin/main`，两边同步；修复提交 `5d41d6d` 在本地等待推送决定。修复前状态留有备份分支 `backup/pre-4f-fix`（指向 `ccbc97c`），用户实机确认修复有效后可删除。
+- 仍未完成：4F 变相后实际手感试玩（F7→4F→Boss）、Windows x86_64 实机验收、生成素材公开再分发授权。
